@@ -4,34 +4,75 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44ad6157-a694-4faf-bca3-6d691cd4852f" name="변경" comment="" />
+    <list default="true" id="44ad6157-a694-4faf-bca3-6d691cd4852f" name="변경" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employess/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/employess/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employess/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/employess/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employess/.idea/dataSources/8fb72c69-b21a-40bb-bc4f-81f51ae08e8b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/employess/.idea/dataSources/8fb72c69-b21a-40bb-bc4f-81f51ae08e8b.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employess/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/employess/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employess/app/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/employess/app/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employess/app/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/employess/app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/employess/app/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employess/app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/employess/app/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employess/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/employess/config/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employess/config/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/employess/config/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employess/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/employess/db.sqlite3" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "EunCheaLee"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/EunCheaLee/Guro.git",
+    "accountId": "0db91c08-7876-4ddc-b855-b59e6f093dd9"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="32E4Gp7HWitJJ5D51n5Mcbc3lc5" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/tj/Desktop/ECL/djangoProject&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/tj/Desktop/ECL/djangoProject",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Django 서버.djangoProject">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="djangoProject" />
@@ -98,6 +139,7 @@
       <updated>1756972304607</updated>
       <workItem from="1756972305758" duration="32000" />
       <workItem from="1757032088573" duration="1722000" />
+      <workItem from="1757034099930" duration="12715000" />
     </task>
     <servers />
   </component>

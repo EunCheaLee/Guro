@@ -7,7 +7,7 @@ class Employee(models.Model):
     age = models.IntegerField()
     job = models.CharField(max_length=100)
     language = models.CharField(max_length=100)
-    payment = models.IntegerField()
+    pay = models.IntegerField()
 
     class Meta:
         db_table = 'employee'
