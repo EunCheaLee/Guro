@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import {useDispatch, useSelector} from 'react-redux';
-import {handleUpdate} from "../redux/employeesSlice.js";
+import {handleUpdate} from "../redux/emp/employeesSlice.js";
 
 const formStyle = {
     display: "flex",

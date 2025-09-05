@@ -28,7 +28,7 @@ def employees(request):
 
 @api_view(['Delete'])
 @permission_classes([AllowAny])
-def employee_delete(request, pk):   # request: 주소 자리, pk: 파라미터 자리
-    emp = get_object_or_404(Employee, pk=pk)
+def employee_delete(request, name):   # request: 주소 자리, pk: 파라미터 자리
+    emp = get_object_or_404(Employee, name=name)
     emp.delete()
     return Response(status=status.HTTP_204_NO_CONTENT)

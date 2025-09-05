@@ -1,15 +1,16 @@
 import React, {useEffect} from 'react';
 import InfoTable from "./InfoTable.jsx";
 import {useDispatch, useSelector} from "react-redux";
-import {getClickName, handleInfo} from "../redux/employeesSlice.js";
+import {getClickName, handleInfo} from "../redux/emp/employeesSlice.js"
+import {fetchGetEmployee} from "../redux/emp/employeeApi.js";
 
-const initialState = {
+/*const initialState = {
     name:'',
     age:'',
     job: '',
     language: '',
     pay: '',
-}
+}*/
 
 const style = {
     width: "60%",
@@ -24,19 +25,19 @@ const style = {
 }
 
 const Employees = () => {
-    const {infos, clicked} = useSelector(state => state.employees);
+    const {infos, clicked, info} = useSelector(state => state.employees);
     const dispatch = useDispatch();
     useEffect(() => {
-        // if(!ctrl) return;
-        if(clicked){
-            dispatch(handleInfo())
-        }
+        clicked && dispatch(handleInfo())
     }, [dispatch, clicked]);
+    useEffect(() => {   // 버튼 생성, 삭제
+        dispatch(fetchGetEmployee())
+    }, [dispatch, info]);
 
     return (
         <>
             <div style={style}>
-                {infos.map((info, idx) => (
+                {infos?.map((info, idx) => (
                     <button
                         key={idx}
                         onClick={() => {dispatch(getClickName(info.name))}}>

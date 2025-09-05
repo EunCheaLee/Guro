@@ -1,6 +1,6 @@
-import React, {useEffect, useState} from 'react';
+import React, {useState} from 'react';
 import {useDispatch} from 'react-redux';
-import {handleRegister} from "../redux/employeesSlice.js";
+import {fetchPostEmployee} from "../redux/emp/employeeApi.js";
 
 const initialState = {
     name:"",
@@ -40,16 +40,16 @@ const inputStyle = {
 const Register = () => {
     const dispatch = useDispatch();
     const [newEmployee, setNewEmployee] = useState(initialState);
-    useEffect(() => {
-        setNewEmployee(initialState);
-    }, [handleRegister])
+    // useEffect(() => {
+    //     setNewEmployee(initialState);
+    // }, [handleRegister])
     const handleChange = e => {
         const { name, value } = e.target;
         setNewEmployee(prev=>({...prev, [name]: value}));
     }
     const handleSubmit = e => {
         e.preventDefault();
-        dispatch(handleRegister(newEmployee));
+        dispatch(fetchPostEmployee(newEmployee));
     }
     return (
         <>

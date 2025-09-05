@@ -1,5 +1,5 @@
 import {configureStore} from "@reduxjs/toolkit";
-import employees from "./employeesSlice.js";
+import employees from "./emp/employeesSlice.js";
 
 
 const store = configureStore({
